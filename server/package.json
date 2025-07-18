@@ -1,0 +1,14 @@
+{
+"scripts": {
+  "test": "jest",
+  "test:integration": "jest --testPathPattern=integration",
+  "test:unit": "jest --testPathPattern=unit",
+  "setup-test-db": "node scripts/setupTestDB.js"
+},
+  
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "mongodb-memory-server": "^10.1.4",
+    "supertest": "^7.1.3"
+  }
+}
